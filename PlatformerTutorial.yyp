@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "1615c09a-be6b-4cc6-88bf-bc69f6d0e23e",
+            "Value": {
+                "id": "0b33f7dc-bbcd-4c05-adb9-34881e18958f",
+                "resourcePath": "objects\\oSwordPickup\\oSwordPickup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1f98fdb9-549e-4fb2-b590-e5e2681f0594",
             "Value": {
                 "id": "871f3942-3e18-465f-afe4-ea08fa7040e4",
@@ -124,6 +132,14 @@
                 "id": "941056f2-e71e-47bc-86f9-1b6775f6ba31",
                 "resourcePath": "rooms\\rEnding\\rEnding.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "294b541e-c40a-4307-8089-09e21e18f273",
+            "Value": {
+                "id": "f39479b2-7b94-4453-aa0b-0fea56e13f73",
+                "resourcePath": "sprites\\sSwordPickup\\sSwordPickup.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -243,6 +259,14 @@
             "Value": {
                 "id": "2c8ab1b0-a901-4a05-9f0c-97ea91c49cf5",
                 "resourcePath": "sprites\\sPlayerR\\sPlayerR.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "55a211a0-1451-44da-9d44-aa4dd7261ee5",
+            "Value": {
+                "id": "68da9a3e-2bc9-4b88-8ec0-19f976bf812d",
+                "resourcePath": "sprites\\sSword\\sSword.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -460,6 +484,14 @@
                 "id": "9633b9f7-8e39-4565-958b-6aaff8fd22bb",
                 "resourcePath": "sounds\\snFoot4\\snFoot4.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "bbe16d88-aef3-4f27-a0a6-875e4981bd3f",
+            "Value": {
+                "id": "7b385306-9226-41a1-b947-ba1a312cc5a2",
+                "resourcePath": "objects\\oSword\\oSword.yy",
+                "resourceType": "GMObject"
             }
         },
         {

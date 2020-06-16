@@ -84,7 +84,7 @@ if (aimSide != 0)
 	image_xscale = aimSide;
 }
 
-if (!place_meeting(x, y+1, oWall)) // If player is in the air
+if (!place_meeting(x, y + 1, oWall)) // If player is in the air
 {
 	sprite_index = sPlayerA;
 	image_speed = 0;

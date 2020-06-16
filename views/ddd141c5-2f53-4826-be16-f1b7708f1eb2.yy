@@ -20,13 +20,15 @@
         "cc521221-601b-4f71-b63f-c5efad3066e1",
         "01074042-dc4f-4dbd-903b-5b5caf6061d1",
         "d38aa52f-6f49-41eb-a308-204df2823ceb",
+        "1615c09a-be6b-4cc6-88bf-bc69f6d0e23e",
         "31fc032d-e655-4a5b-a4ff-a317e805c81f",
         "20044239-d092-47ef-9d18-a1a15d741c35",
         "fe4c8b71-0c35-4ac9-87b6-33f6bed0fc2a",
         "d62661d1-4ff6-4298-afb3-3a459062c38a",
         "843ff690-bb45-49be-b9fd-98f5f1a5adfb",
         "101ec703-9c6f-4fa8-9d3e-fcc193b8f818",
-        "83515fdf-efba-4ffb-bac3-5de6f17e7623"
+        "83515fdf-efba-4ffb-bac3-5de6f17e7623",
+        "bbe16d88-aef3-4f27-a0a6-875e4981bd3f"
     ],
     "filterType": "GMObject",
     "folderName": "objects",
