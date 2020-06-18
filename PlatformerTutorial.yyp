@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "216666ba-ec73-4d18-bc1d-a307c8bd39e4",
+            "Value": {
+                "id": "1d6e9218-06e7-4acd-b4de-0fc304bbb1ae",
+                "resourcePath": "sprites\\sPlayerRbw\\sPlayerRbw.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "227d02ba-44be-49b3-8da3-88285c826542",
             "Value": {
                 "id": "70daf31b-772b-43f7-a175-752802d0495c",
@@ -215,6 +223,14 @@
             }
         },
         {
+            "Key": "408c053f-246e-406e-97cb-8bb08d4cbdaa",
+            "Value": {
+                "id": "a2b417c0-3f40-48ca-9d95-5240e590b21d",
+                "resourcePath": "sprites\\sPlayerAW\\sPlayerAW.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "43332e4e-cc37-4632-b4df-f993d61a9c75",
             "Value": {
                 "id": "0f4efecc-d055-46ba-ba39-76b0ceee93e7",
@@ -252,6 +268,14 @@
                 "id": "e688f9d2-9d76-4388-9cd4-ca6ec39dce69",
                 "resourcePath": "scripts\\ScreenShake\\ScreenShake.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4dd2e3f8-3acb-4bd8-a805-1fc323ad2fce",
+            "Value": {
+                "id": "843188b2-d641-44f5-8bd1-923e503e7a66",
+                "resourcePath": "sprites\\sPlayerRW\\sPlayerRW.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -524,6 +548,14 @@
                 "id": "33dc2c88-46cf-44ed-9b39-1f77fb6a58d0",
                 "resourcePath": "scripts\\DrawSetText\\DrawSetText.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c962172d-2be4-4880-9ed5-af24c42ae2c7",
+            "Value": {
+                "id": "54c88a20-3b13-494c-8207-0ff7260d8f55",
+                "resourcePath": "sprites\\sPlayerIdle\\sPlayerIdle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
