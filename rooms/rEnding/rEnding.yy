@@ -18,7 +18,7 @@
             "id": "4910091c-9b43-494f-98db-cfa2ecbb9992",
             "assets": [
 {"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_4215EFAA","id": "cee999b1-2aa5-4904-9495-e5b96533a5e0","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "4f74e683-cc12-4ed5-bb2a-23897513426e","userdefined_animFPS": false,"x": 0,"y": 534},
-{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "gGun","id": "b5e7c38f-c188-4a9d-84d6-b17644f9d427","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "9e4e1423-b24a-4ca7-a0e7-d7471fe8f6df","userdefined_animFPS": false,"x": 0,"y": 547}
+{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "gGun","id": "b5e7c38f-c188-4a9d-84d6-b17644f9d427","animationFPS": 1,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "9e4e1423-b24a-4ca7-a0e7-d7471fe8f6df","userdefined_animFPS": false,"x": 0,"y": 547}
             ],
             "depth": 0,
             "grid_x": 32,

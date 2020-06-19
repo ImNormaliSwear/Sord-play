@@ -13,7 +13,5 @@ if (place_meeting(x, y, oWall) && image_index != 0)
 		y -= lengthdir_y(1, direction);
 	}
 	spd = 0;
-	instance_change(oHitSpark, true);
-// instance_destroy();
 }
 	

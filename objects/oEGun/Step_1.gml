@@ -1,6 +1,8 @@
 //if (!instance_exists(owner))
 //	instance_destroy();
 //	return;
+image_speed = 0;
+
 
 x = owner.x;
 y = owner.y + 10;
@@ -20,16 +22,20 @@ if (instance_exists(oPlayer))
 		countdown--;
 		if (countdown < 0)
 		{
+			image_index = 1;
 			// Only shoot if the line of sight is clear to the player
 			if (!collision_line(x, y, oPlayer.x, oPlayer.y, oWall, false, false))
 			{
 				countdown = countdownrate;
-			
+				if (countdown == countdownrate) 
+				{
+					image_index = 0;
+				}
 				audio_sound_pitch(snShot, choose(0.8, 1.0, 1.2));
 				audio_play_sound(snShot, 5, false);
 	
 				// Create the bullet in the Bullets layer
-				with (instance_create_layer(x, y, "Bullets", oEBullet))
+				with (instance_create_layer(x - 5, y, "Bullets", oEBullet))
 				{
 					// Because of the WITH statement, everything in here is referring to the bullet
 					// (except other, that's the gun)
