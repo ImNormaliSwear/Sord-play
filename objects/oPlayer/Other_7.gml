@@ -11,3 +11,4 @@ if (sprite_index == sPlayerR)
 		hsp = sign(other.hsp);
 	}
 }
+

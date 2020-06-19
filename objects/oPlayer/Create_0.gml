@@ -15,3 +15,4 @@ gunKickX = 0;
 gunKickY = 0;
 
 audio_sound_pitch(snShot, 0.8);
+

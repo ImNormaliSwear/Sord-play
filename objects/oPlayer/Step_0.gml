@@ -82,16 +82,37 @@ var aimSide = sign(mouse_x - x); // +1 for mouse on the right of the player, -1 
 if (aimSide != 0)
 {
 	image_xscale = aimSide;
+	
+}
+if (aimSide == 1)
+{
+	global.move = true;
+}
+else
+{
+	global.move = false;
 }
 
 if (!place_meeting(x, y + 1, oWall)) // If player is in the air
 {
-	sprite_index = sPlayerA;
-	image_speed = 0;
-	if (sign(vsp) > 0) 
+	if (instance_exists(oSword))
+	{
+		sprite_index = sPlayerAW;
+		image_speed = 0;
+		if (sign(vsp) > 0) 
 		image_index = 1; // Falling
-	else 
+		else 
 		image_index = 0; // Jumping
+	}
+	else
+	{
+		sprite_index = sPlayerA;
+		image_speed = 0;
+		if (sign(vsp) > 0) 
+		image_index = 1; // Falling
+		else 
+		image_index = 0; // Jumping
+	}
 }
 else // Player is on the ground
 {
@@ -111,13 +132,35 @@ else // Player is on the ground
 		}
 	}
 	image_speed = 1;
-	if (hsp == 0)
-		sprite_index = sPlayer; // Standing
+if (instance_exists(oSword))	
+	{
+		if (hsp == 0)
+		{
+			sprite_index = sPlayer; // Standing
+		}
+		else
+		{
+			sprite_index = sPlayerRW; // Running
+			if (aimSide != sign(hsp))
+			{	
+				sprite_index = sPlayerRbw; // Run backwards
+			}
+		}
+	}
 	else
 	{
-		sprite_index = sPlayerR; // Running
-		if (aimSide != sign(hsp))
-			sprite_index = sPlayerRb; // Run backwards
+		if (hsp == 0)
+		{
+			sprite_index = sPlayerIdle; // Standing
+		}
+		else
+		{
+			sprite_index = sPlayerR; // Running
+			if (aimSide != sign(hsp))
+			{	
+				sprite_index = sPlayerRb; // Run backwards
+			}
+		}
 	}
 }
 
