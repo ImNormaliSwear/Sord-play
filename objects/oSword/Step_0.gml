@@ -28,7 +28,7 @@ if (instance_exists(oPlayer))
 		}
 	}
 	
-	image_angle = point_direction(x, y, mouse_x , mouse_y);
+
 
 	if (place_meeting(x, y, pShootable))
 	{
@@ -43,4 +43,31 @@ if (instance_exists(oPlayer))
 else
 {
 	instance_destroy();
+}
+
+if (!stamina == 0 && !wait == true)
+{
+	if (mouse_check_button(mb_left))
+	{
+	image_angle = point_direction(x, y, mouse_x , mouse_y);
+	stamina -= 5;
+	}
+}
+if (stamina == 0) 
+{
+	wait = true;
+}
+if (wait == true)
+{
+	stamina += 3;
+	if (stamina == 300)
+	{
+		wait = false;
+	}
+}
+
+if (stamina > 300) 
+{
+	stamina = 300;
+	wait = false;
 }
