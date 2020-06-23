@@ -11,6 +11,7 @@ if (place_meeting(x, y, oWall) && image_index != 0)
 	{
 		x -= lengthdir_x(1, direction);
 		y -= lengthdir_y(1, direction);
+		instance_change(oEBullet1, true)
 	}
 	spd = 0;
 }

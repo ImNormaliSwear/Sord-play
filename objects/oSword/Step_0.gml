@@ -45,7 +45,9 @@ else
 	instance_destroy();
 }
 
-if (!stamina == 0 && !wait == true)
+
+
+if (wait != true && rest != true)
 {
 	if (mouse_check_button(mb_left))
 	{
@@ -55,19 +57,38 @@ if (!stamina == 0 && !wait == true)
 }
 if (stamina == 0) 
 {
-	wait = true;
+	rest = true;
 }
-if (wait == true)
+if (rest == true)
 {
-	stamina += 3;
-	if (stamina == 300)
+	stamina += 1;
+	if (stamina == maxStamina)
 	{
-		wait = false;
+		rest = false;
 	}
 }
 
-if (stamina > 300) 
+if (stamina > maxStamina) 
 {
-	stamina = 300;
+	stamina = maxStamina;
 	wait = false;
+	rest = false;
+}
+
+if (!instance_exists(oGravity))
+{
+	instance_create_layer(x, y, "Gun", oGravity);
+}
+
+if (!mouse_check_button(mb_left) || wait == true || rest == true)
+{
+	if (stamina < maxStamina) 
+	{
+		wait = true;
+	}
+	if (wait == true)
+	{
+		stamina += 2;
+	}
+	image_angle = point_direction(x, y, oGravity.x, oGravity.y);
 }

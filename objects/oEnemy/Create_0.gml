@@ -10,3 +10,5 @@ else
 {
 	myGun = noone;
 }
+
+arrow = 0;

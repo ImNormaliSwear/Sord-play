@@ -132,7 +132,7 @@ else // Player is on the ground
 		}
 	}
 	image_speed = 1;
-if (instance_exists(oSword))	
+	if (instance_exists(oSword))	
 	{
 		if (hsp == 0)
 		{
