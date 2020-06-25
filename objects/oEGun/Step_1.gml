@@ -35,7 +35,7 @@ if (instance_exists(oPlayer))
 				audio_play_sound(snShot, 5, false);
 	
 				// Create the bullet in the Bullets layer
-				with (instance_create_layer(x - 5, y, "Bullets", oEBullet))
+				with (instance_create_layer(x - 15, y, "Bullets", oEBullet))
 				{
 					// Because of the WITH statement, everything in here is referring to the bullet
 					// (except other, that's the gun)

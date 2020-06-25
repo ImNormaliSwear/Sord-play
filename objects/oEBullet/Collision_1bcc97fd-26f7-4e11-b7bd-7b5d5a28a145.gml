@@ -1,6 +1,6 @@
 //x -= lengthdir_x(spd, direction);
 //y -= lengthdir_y(spd, direction);
-instance_create_layer(x, y, "Bullets", sHitSpark)
+instance_create_layer(x, y, "Bullets", oHitSpark)
 if (direction > 180)
 {
 	image_xscale *= -1;

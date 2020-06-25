@@ -51,9 +51,20 @@ else // Player is on the ground
 	grounded = true;
 	image_speed = 1;
 	if (hsp == 0)
+	{
 		sprite_index = sEnemy; // Standing
+	}
 	else
-		sprite_index = sEnemyR; // Running
+	{
+		if (hasWeapon == true)
+		{
+			sprite_index = sEnemyRW
+		}
+		else
+		{
+			sprite_index = sEnemyR; // Running
+		}
+	}
 }
 
 
