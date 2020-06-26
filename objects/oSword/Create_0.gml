@@ -4,3 +4,4 @@ stamina = maxStamina;
 wait = false;
 //if fully out of stam
 rest = false;
+dowait = true;

@@ -11,3 +11,9 @@ global.killsThisRoom = 0;
 killTextScale = 1;
 
 global.hasGun = false;
+
+playsong = 0;
+
+song1 = 12240;
+song2 = 12960;
+song3 = 13200;

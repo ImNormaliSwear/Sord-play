@@ -47,7 +47,7 @@ else
 
 
 
-if (wait != true && rest != true)
+if (rest != true)
 {
 	if (mouse_check_button(mb_left))
 	{
@@ -58,6 +58,7 @@ if (wait != true && rest != true)
 if (stamina == 0) 
 {
 	rest = true;
+	dowait = false;
 }
 if (rest == true)
 {
@@ -68,11 +69,12 @@ if (rest == true)
 	}
 }
 
-if (stamina > maxStamina) 
+if (stamina >= maxStamina) 
 {
 	stamina = maxStamina;
 	wait = false;
 	rest = false;
+	dowait = true;
 }
 
 if (!instance_exists(oGravity))
@@ -80,15 +82,19 @@ if (!instance_exists(oGravity))
 	instance_create_layer(x, y, "Gun", oGravity);
 }
 
-if (!mouse_check_button(mb_left) || wait == true || rest == true)
+if (!mouse_check_button(mb_left) || rest == true)
 {
-	if (stamina < maxStamina) 
+	if (dowait != false)
 	{
-		wait = true;
-	}
-	if (wait == true)
-	{
-		stamina += 2;
+		if (stamina < maxStamina) 
+		{
+			wait = true;
+		}
+		if (wait == true)
+		{
+			stamina += 5;
+		}
 	}
 	image_angle = point_direction(x, y, oGravity.x, oGravity.y);
+	
 }
