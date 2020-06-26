@@ -96,5 +96,4 @@ if (!mouse_check_button(mb_left) || rest == true)
 		}
 	}
 	image_angle = point_direction(x, y, oGravity.x, oGravity.y);
-	
 }
