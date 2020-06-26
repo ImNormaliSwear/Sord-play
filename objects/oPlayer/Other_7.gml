@@ -1,7 +1,7 @@
 /// @description footsteps
 
 // Running sounds and puffs of dust
-if (sprite_index == sPlayerR) 
+if (sprite_index == sPlayerR || sprite_index == sPlayerRW)
 {
 	audio_play_sound(choose(snFoot1, snFoot2, snFoot3, snFoot4), 10, false);
 	
