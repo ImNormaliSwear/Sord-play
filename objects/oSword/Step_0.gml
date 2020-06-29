@@ -34,7 +34,7 @@ if (instance_exists(oPlayer))
 	{
 		with (instance_place(x, y, pShootable)) // in this case, other is the Enemy hit
 		{
-			hp -= 4;
+			hp -= 1;
 			flash = 3;
 			hitfrom = other.direction;
 		}
@@ -62,20 +62,22 @@ if (stamina == 0)
 }
 if (rest == true)
 {
-	stamina += 1;
+	stamina += 2;
 	if (stamina == maxStamina)
 	{
+		audio_play_sound(snStam, 4, false);
 		rest = false;
 	}
 }
 
-if (stamina >= maxStamina) 
+if (stamina >= maxStamina)
 {
 	stamina = maxStamina;
 	wait = false;
 	rest = false;
 	dowait = true;
 }
+
 
 if (!instance_exists(oGravity))
 {
@@ -93,6 +95,11 @@ if (!mouse_check_button(mb_left) || rest == true)
 		if (wait == true)
 		{
 			stamina += 5;
+			if (stamina == maxStamina)
+			{
+				audio_play_sound(snStam, 4, false);
+				wait = false;
+			}
 		}
 	}
 	image_angle = point_direction(x, y, oGravity.x, oGravity.y);

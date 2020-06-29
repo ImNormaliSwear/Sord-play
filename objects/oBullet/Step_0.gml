@@ -9,9 +9,11 @@ if (place_meeting(x, y, pShootable))
 {
 	with (instance_place(x, y, pShootable)) // in this case, other is the Enemy hit
 	{
+		
 		hp--;
 		flash = 3;
 		hitfrom = other.direction;
+		
 	}
 	instance_destroy();
 }
