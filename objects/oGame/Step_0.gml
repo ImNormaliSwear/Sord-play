@@ -1,7 +1,6 @@
 if (song1 == 12240)
 {
 	audio_play_sound(snSong1, 10, false);
-	song1--;
 }
 
 if (song2 == 12960 && song1 <= 0)

@@ -87,10 +87,12 @@ if (aimSide != 0)
 if (aimSide == 1)
 {
 	global.move = true;
+	global.yeet = false;
 }
 else
 {
 	global.move = false;
+	global.yeet = true;
 }
 
 if (!place_meeting(x, y + 1, oWall)) // If player is in the air

@@ -11,7 +11,9 @@ vsp = vsp + grv;
 		}
 		hsp = 0;
 	}
-	x = x + hsp;
+	x = x + hsp
+
+
 
 	// Vertical collision
 	if (place_meeting(x, y+vsp, oWall))
