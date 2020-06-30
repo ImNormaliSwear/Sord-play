@@ -74,8 +74,10 @@ image_yscale = size;
 if (hsp > 0)
 {
 	global.emove = true;
+	global.eyeet = true;
 }
 else
 {
 	global.emove = false;
+	global.eyeet = false;
 }
