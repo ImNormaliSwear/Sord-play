@@ -115,7 +115,8 @@
         "1f185ef1-21d3-4fb4-a556-69f1479eebf8",
         "8808add1-26ab-486a-a6c0-6e5f12648032",
         "9637f3cc-0692-443f-b1bd-dcefd37bc2aa",
-        "06073e0f-532b-4993-b27b-3ffdf4eed37b"
+        "06073e0f-532b-4993-b27b-3ffdf4eed37b",
+        "578d20f5-0243-4e7c-bcfd-0987c5401fd2"
     ],
     "IsDnD": false,
     "layers": [
@@ -160,7 +161,7 @@
             "inheritVisibility": false,
             "instances": [
 {"name": "inst_29238BD7","id": "d446dc11-7a88-4fa1-b134-556626d0a02b","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": true,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_29238BD7","objId": "d38aa52f-6f49-41eb-a308-204df2823ceb","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 398,"y": 783},
-{"name": "inst_344B51D3","id": "acee8b03-0e4a-43db-972d-cb959ce09bb0","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_344B51D3","objId": "1615c09a-be6b-4cc6-88bf-bc69f6d0e23e","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 480,"y": 864}
+{"name": "inst_344B51D3","id": "acee8b03-0e4a-43db-972d-cb959ce09bb0","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_344B51D3","objId": "1615c09a-be6b-4cc6-88bf-bc69f6d0e23e","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 1837,"y": 741}
             ],
             "layers": [
 
@@ -214,7 +215,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_2727EF43","id": "ee85f6f4-a6aa-4e06-8fc4-c21daa3092f8","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2727EF43","objId": "01074042-dc4f-4dbd-903b-5b5caf6061d1","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 659,"y": 878}
+{"name": "inst_2727EF43","id": "ee85f6f4-a6aa-4e06-8fc4-c21daa3092f8","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2727EF43","objId": "01074042-dc4f-4dbd-903b-5b5caf6061d1","properties": [{"id": "8fd09034-b2bd-49ce-a6d7-2bc9cb8cb90c","modelName": "GMOverriddenProperty","objectId": "01074042-dc4f-4dbd-903b-5b5caf6061d1","propertyId": "e8633457-5ef2-4cd5-895e-074ad8b3cea7","mvc": "1.0","value": "Find the princess."}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 659,"y": 878},
+{"name": "inst_631A956A","id": "578d20f5-0243-4e7c-bcfd-0987c5401fd2","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_631A956A","objId": "01074042-dc4f-4dbd-903b-5b5caf6061d1","properties": [{"id": "6d0f02dd-05be-495a-b335-62d48ba7b00f","modelName": "GMOverriddenProperty","objectId": "01074042-dc4f-4dbd-903b-5b5caf6061d1","propertyId": "e8633457-5ef2-4cd5-895e-074ad8b3cea7","mvc": "1.0","value": "Oh... Your actually doing it."}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 1582,"y": 875}
             ],
             "layers": [
 

@@ -5,14 +5,14 @@ gunSprite = layer_sprite_get_id("TitleAssets", "gGun");
 // If we have the gun and killed at least one dude...
 if (global.hasGun && global.kills > 0)
 {
-	endText[0] = "And on this day our hero had slain " + string(global.kills) + " people.";
+	endText[0] = "You killed " + string(global.kills) + " knights.";
 	if (global.kills == 1)
-		endText[0] = "And on this day our hero killed a guy for no reason.";
-	endText[1] = "But some of those people had guns too, so...";
-	endText[2] = "He was probably saving the world or something.";
-	endText[3] = "Regardless, he was arrested 2 days later and spent the rest of his life in prison.";
-	endText[4] = "The defense team tried to argue that the sexy recoil effects and hit flashes were to blame\nbut to no avail.";
-	endText[5] = "The park ranger would later state she was \"not angry, just disappointed\"";
+		endText[0] = "You ventured through death.";
+	endText[1] = "Only to aquire what was not there.";
+	endText[2] = "You wandered the lands in search of the princess.";
+	endText[3] = "Only to find out there was no princess.";
+	endText[4] = "You just slaughtered knights defending their land from a warmonger.";
+	endText[5] = "The signs were set up by some prankster.";
 	endText[6] = "The end.";
 }
 else 
