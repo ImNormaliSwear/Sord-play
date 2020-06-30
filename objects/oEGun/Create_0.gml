@@ -1,4 +1,4 @@
-countdownrate = 40;
+countdownrate = 80;
 countdown = countdownrate;
 
 

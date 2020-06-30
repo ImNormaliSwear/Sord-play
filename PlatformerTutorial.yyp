@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "23bd99cb-374a-48c2-9896-78b367cde3a7",
+            "Value": {
+                "id": "a51ee172-153d-4d6b-bd77-0417629c1d12",
+                "resourcePath": "objects\\oSword1\\oSword1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "24c8b215-9961-42bb-9e48-310e7bbe3bba",
             "Value": {
                 "id": "941056f2-e71e-47bc-86f9-1b6775f6ba31",
@@ -551,6 +559,14 @@
             }
         },
         {
+            "Key": "aaf67dd0-31f3-4041-af80-26f9e157413a",
+            "Value": {
+                "id": "fc14e4cb-e5fb-4b1a-bba4-56dcb52174e0",
+                "resourcePath": "sprites\\sSwordE\\sSwordE.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ad1a04fc-7c69-4b19-9e1c-63f08ac70f92",
             "Value": {
                 "id": "f5691f7f-d98a-48d5-905d-7f591b4f7a1f",
@@ -564,14 +580,6 @@
                 "id": "2bd8fad7-654d-456d-8eb0-fd6fb56e6ddc",
                 "resourcePath": "sprites\\sEBullet1\\sEBullet1.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "afacb540-74c5-4323-a6da-91f6a5443903",
-            "Value": {
-                "id": "c1a2f00c-8432-4e4c-a9cd-c38443860c6f",
-                "resourcePath": "objects\\oboss\\oboss.yy",
-                "resourceType": "GMObject"
             }
         },
         {

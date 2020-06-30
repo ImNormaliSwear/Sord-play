@@ -25,9 +25,10 @@ if (hp <= 0)
 			image_yscale = other.size;
 		}
 	}
-	if (hasWeapon)
+	if (hasWeapon) || (hasSword)
 	{
 		with (myGun) instance_destroy();
+		with (mySword) instance_destroy();
 	}
 	if (instance_exists(oPlayer))
 	{
@@ -65,6 +66,7 @@ else
 		if (hasWeapon)
 		{
 			with (myGun) instance_destroy();
+			with (mySword) instance_destroy();
 		}
 		if (instance_exists(oPlayer))
 		{

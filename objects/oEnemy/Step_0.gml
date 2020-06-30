@@ -56,7 +56,7 @@ else // Player is on the ground
 	}
 	else
 	{
-		if (hasWeapon == true)
+		if (hasWeapon == true || hasSword == true)
 		{
 			sprite_index = sEnemyRW
 		}
@@ -69,7 +69,13 @@ else // Player is on the ground
 
 
 if (sign(hsp) != 0) // If we're moving
-	image_xscale = sign(hsp) * size; // Flip player image left or right accordingly
+image_xscale = sign(hsp) * size; // Flip player image left or right accordingly
 image_yscale = size;
-	
-
+if (hsp > 0)
+{
+	global.emove = true;
+}
+else
+{
+	global.emove = false;
+}
