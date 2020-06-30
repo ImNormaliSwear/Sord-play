@@ -17,3 +17,7 @@ playsong = 0;
 song1 = 12240;
 song2 = 12960;
 song3 = 13200;
+
+songplaying1 = false;
+songplaying2 = false;
+songplaying3 = false;
