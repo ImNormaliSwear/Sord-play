@@ -64,7 +64,7 @@ else
 				image_yscale = other.size;
 			}
 		}
-		if (hasWeapon)
+		if (hasWeapon) || (hasSword)
 		{
 			with (myGun) instance_destroy();
 			with (mySword) instance_destroy();
